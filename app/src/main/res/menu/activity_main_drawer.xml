@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/orders"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="訂單紀錄" />
+        <item
+            android:id="@+id/history"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="交易紀錄" />
+        <item
+            android:id="@+id/members"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="會員專區" />
+
+    </group>
+
+    <item android:title="相關資訊">
+        <menu>
+            <item
+                android:id="@+id/news"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="最新消息" />
+            <item
+                android:id="@+id/shopim"
+                android:icon="@drawable/ic_menu_share"
+                android:title="店家資訊" />
+            <item
+                android:id="@+id/systemim"
+                android:icon="@drawable/ic_menu_send"
+                android:title="系統版本" />
+            <item
+                android:id="@+id/preferential"
+                android:icon="@drawable/ic_menu_send"
+                android:title="優惠專區" />
+        </menu>
+    </item>
+    <item android:title="其他">
+        <menu>
+            <item
+                android:id="@+id/login"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="登入" />
+        </menu>
+    </item>
+</menu>
